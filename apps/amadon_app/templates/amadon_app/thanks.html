@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Session Words</title>
+    <link href="static/amadon_app/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/amadon_app/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="contianer">
+        <div class="row">
+            <h2>Thank you for your business!</h2>
+        </div>
+        <div class="row">
+            <p>We charged your credit card for {{ request.session.newDict.cost }}.</p>
+        </div>
+        <div class="row">
+            <p>you have ordered ## items so far and spent {{ request.session.newDict.total }} with Amadon.com.</p>
+        </div>
+        <div class="row">
+            <a href="/"><button type="submit" class="btn btn-secondary btn-sm">Back</button></a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: auto;
+}
+
+.navbar {
+    background-color: #D9534F;
+    color: antiquewhite;
+}
+
+.frms {
+    width: 40%;
+}
+
+.table {
+    width: 97.5%;
+}
+
+body {
+    background-color: gray
+}
